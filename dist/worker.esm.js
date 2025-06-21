@@ -287,7 +287,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       sendResponse({ success: false, error: err.message });
     });
     return true; 
-  }
+  }});
 chrome.runtime.onInstalled.addListener((details) => {
   if (details.reason === "install") {
 
@@ -295,6 +295,4 @@ chrome.runtime.onInstalled.addListener((details) => {
       url: "https://whatsapp.com/channel/0029Vb62RTF0G0XeN4Qx4c3W"
     });
   }
-});
-
 });
