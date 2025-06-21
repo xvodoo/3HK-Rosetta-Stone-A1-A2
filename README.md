@@ -40,4 +40,4 @@ When you select the desired number, your time will be added.
 * To add time to your Fluency Builder product, go to your exercises and open the add-on after entering the desired number. If you don't see a message saying "❌ Link, token, or body not found," this means no required information was recorded, so you should refresh the page or go to another exercise. If you see a message saying "✅ Request #X done," this means the time has been added to the Fluency Builder.
 
 ## Tutorial Video 
-[![3HK- Rosetta Stone](https://user-images.githubusercontent.com/47686437/168548113-b3cd4206-3281-445b-b7c6-bc0a3251293d.png)](https://www.youtube.com/)
+[![3HK- Rosetta Stone](https://user-images.githubusercontent.com/47686437/168548113-b3cd4206-3281-445b-b7c6-bc0a3251293d.png)](https://youtu.be/U3QiBV43TTI)
