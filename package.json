@@ -1,0 +1,28 @@
+{
+  "name": "rosseta",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "web-push": "^3.6.7",
+    "ws": "^8.18.1"
+  },
+  "description": "This repository contains an extension for the 3HK Rosetta Stone project. The extension is designed to collaborate with users by providing additional functionality, improving accessibility, and supporting the increase of working hours for students. It aims to enhance the overall user experience while maintaining an efficient and seamless interaction with the Rosetta Stone platform.",
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}

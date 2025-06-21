@@ -1,0 +1,149 @@
+html {
+  background: #323232;
+}
+
+.top {
+  grid-area: top;
+  align-items: center;
+  color: #ff1e00;
+ ;
+}
+.top a{
+  color: rgb(30, 255, 0);
+  font-size: 14px;
+}
+p.warning-form {
+  color: white;
+  text-align: center;
+  font-style: bold;
+}
+
+div.extra-bar {
+  grid-area: ext;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+body {
+  background: #252626;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-width: 420px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#repetitions {
+  border-radius: 20px;
+  border: none;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
+  outline: none;
+  background: #c62e2e;
+  color: #eae9e8;
+  box-shadow: 0 2px 8px #0002;
+  transition: border 0.2s;
+}
+input[type="number"]::placeholder {
+  color: #c2c0c0;
+  padding-left: 15px;
+}
+#repetitions:focus {
+  border: 2px solid #ffc000;
+}
+
+#run {
+  padding: 10px 30px;
+  padding-bottom: 10px;
+  background-color: #e5e5e5;
+  color: #4f2259;
+  margin-top: 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background 0.2s, color 0.2s;
+}
+#run::after {
+  content: attr(data-label);
+  display: none;
+  font-weight: bold;
+  color: #ffc000;
+}
+#run:hover {
+    background: #4f2259;
+  color: transparent; 
+}
+#run:hover::after {
+  display: inline;
+  color: #ffc000;
+}
+#output {
+  background: #222;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 90%;
+  min-height: 60px;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 15px;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px #0003;
+  white-space: pre-wrap;
+  direction: ltr;
+  text-align: left;
+}
+
+/* Responsive for small popups */
+@media (max-width: 400px) {
+  #output {
+    font-size: 13px;
+    padding: 8px;
+  }
+  #run {
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+  #repetitions {
+    font-size: 16px;
+    width: 60px;
+    height: 32px;
+  }
+}
+.checkUpdateBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  white-space: nowrap;
+}
+.checkUpdateBtn button {
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  background-color: #e5e5e5;
+  border: none;
+  border-radius: 20px;
+   white-space: nowrap;
+}
+.update-clear-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.input-run-container {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+}

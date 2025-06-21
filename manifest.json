@@ -1,0 +1,34 @@
+{
+
+  "name": "3HK-Rosetta Stone A1 A2",
+  "description": "Sensitive content",
+  "version": "2.1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "/dist/worker.esm.js"
+  },
+  "action": {
+    "default_popup": "/static/popup.html",
+    "default_icon": "/static/img/sensitive logo red.png",
+    "default_title": "Ξ 3HK"
+  },
+  "permissions": ["storage", "webRequest", "tabs", "scripting", "activeTab", "notifications"],
+  "icons": {
+    "520": "/static/img/sensitive logo white.png"
+  },
+  "host_permissions": [
+    "<all_urls>",
+    "*://totale.rosettastone.com/",
+    "*://tracking.rosettastone.com/",
+    "*://learn.rosettastone.com/",
+    "*://graph.rosettastone.com/graphql",
+    "*://gaia-server.rosettastone.com/graphql",
+    "https://raw.githubusercontent.com/*"
+  ],
+  "content_scripts": [
+  {
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }
+]
+}
