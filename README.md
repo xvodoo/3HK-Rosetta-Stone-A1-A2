@@ -1,8 +1,6 @@
 # 3HK-Rosetta stone A1 A2
   3HK Rosetta Stone Project. This plugin is designed to collaborate with users at levels A1 and A2, providing additional functionality, improving accessibility, and supporting increased student work hours. It aims to improve the overall user experience while maintaining efficient and seamless interaction with the Rosetta Stone platform.
-# ⚠️ Download the new one V2.2.0 ...
 
-#### **📁 [Version 2.2.0](https://github.com/xvodoo/3HK-Rosetta-Stone-A1-A2/releases/tag/v2.2.0)**
 ## 📌 Install 
 #### Chrome based browsers
 
