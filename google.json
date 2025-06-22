@@ -1,5 +1,9 @@
 {
     "2.1.0": {
+    "disabled": true,
+    "message": "This old version has been discontinued. New update is available !!"
+  },
+  "2.2.0": {
     "disabled": false,
     "message": "Everything is fine now 👁‍🗨"
   }
